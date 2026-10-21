@@ -1,0 +1,45 @@
+{
+  "name": "RobloxX1",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Future"
+      }
+    },
+    "TextChatService": {
+      "$properties": {
+        "ChatVersion": "TextChatService"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
